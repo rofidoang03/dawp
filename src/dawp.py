@@ -22,6 +22,7 @@ def kirim_permintaan_get(target_host, target_port, nomor_paket):
         
         # Menutup koneksi socket
         client_socket.close()
+        print(".\r")
       
     except Exception as e:
         # Menampilkan pesan kesalahan jika terjadi masalah
